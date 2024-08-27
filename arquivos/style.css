@@ -85,6 +85,7 @@ body{
 }
 
 .carousel-image {
+    display: flex;
     min-width: 100%;
     transition: opacity 0.5s ease;
 }
@@ -104,6 +105,9 @@ video {
 .carousel-image {
     width: 100%;
     height: 400px;
+}
+.carousel-images{
+    display: flex;
 }
 
 button {
@@ -156,4 +160,19 @@ button:hover {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+}
+
+.banner-email-mkt01{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #eee;
+    max-width: 300px;
+}
+.texto-email-mkt01{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 0 auto;
+    margin: 0 auto;
 }
